@@ -1,0 +1,8 @@
+<div class="container">
+  <p class="lead text-center pt-4">Bienvenido al mercado WEB, seleccione sus productos</p>
+  <div class="row justify-content-center">
+    {{#each products}}
+    {{> producto product=this}}
+    {{/each}}
+  </div>
+</div>
